@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D&amp;GSOCCER | Escola de Futebol em Caieiras</title>
+<meta name="description" content="D&amp;GSOCCER: escola de futebol em Caieiras, SP, para crianças e adolescentes. Metodologia completa em técnica, tática, físico e mental, com professores que viveram o futebol profissional. Agende uma aula experimental gratuita.">
+<meta property="og:title" content="D&amp;GSOCCER | Treine. Evolua. Jogue melhor.">
+<meta property="og:description" content="Escola de futebol em Caieiras conduzida por professores com vivência no futebol profissional.">
+<meta name="theme-color" content="#08080a">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="preloader" id="preloader">
+  <div class="pre-panel pre-top"></div>
+  <div class="pre-panel pre-bot"></div>
+  <div class="pre-inner">
+    <img class="pre-emblem" src="img/logo-dgsoccer.png" width="150" height="150" alt="">
+    <div class="pre-logo" id="pre-logo"></div>
+    <div class="pre-line"><i></i></div>
+    <div class="pre-tag">Treine. Evolua. Jogue melhor.</div>
+  </div>
+</div>
+
+<div class="cursor" id="cursor"><span class="lbl"></span></div>
+<div class="cursor-dot" id="cursor-dot"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="spot" id="spot" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<a href="#main" class="skip-link">Pular para o conteúdo</a>
+
+<header id="hdr">
+  <div class="wrap">
+    <a href="#main" class="brand" aria-label="D&amp;GSOCCER, início">
+      <img class="brand-logo" src="img/logo-dgsoccer-escudo.png" width="99" height="109" alt="Logo D&amp;GSOCCER">
+      <b>DG <em>Soccer</em></b>
+    </a>
+    <nav id="nav">
+      <a href="#equipe">Quem somos</a>
+      <a href="#metodologia">Metodologia</a>
+      <a href="#publico">Para quem é</a>
+      <a href="#treinos">Treinos</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="nav-cta mag" href="https://wa.me/5511940368331?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental%20na%20DG%20Soccer." target="_blank" rel="noopener">Aula experimental</a>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <canvas id="fx" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div>
+        <div class="eyebrow rv">Caieiras, SP · Escola de futebol</div>
+        <h1 id="h1">Treine. Evolua. <span class="g">Jogue melhor.</span></h1>
+        <p class="hero-sub rv">Formação de atleta para crianças e adolescentes, com técnica, tática, físico e mental dentro do mesmo treino. Conduzida por professores que viveram o futebol profissional por dentro.</p>
+        <div class="hero-btns rv">
+          <a class="btn btn-gold mag" data-cursor="Vamos" href="https://wa.me/5511940368331?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental%20gratuita%20na%20DG%20Soccer." target="_blank" rel="noopener"><span class="sh"></span>Agendar aula experimental</a>
+          <a class="btn btn-line mag" href="#metodologia">Ver a metodologia</a>
+        </div>
+        <div class="hero-meta rv">
+          <span>Av. Dr. Armando Pinto, 100</span>
+          <a href="https://www.instagram.com/_dgsoccer/" target="_blank" rel="noopener">@_dgsoccer</a>
+          <span>Terça a sexta</span>
+        </div>
+      </div>
+
+      <div class="hero-visual rv">
+        <span class="corner tl"></span>
+        <span class="corner br"></span>
+        <span class="hv-badge">1ª aula gratuita</span>
+        <figure class="hv-frame hv-owners">
+          <img src="img/capa-denner-gabriel.jpg" width="1080" height="1350" alt="Dener e Gabriel, proprietários da D&amp;GSOCCER, de braços cruzados com a camisa preta da escola">
+          <figcaption class="hv-cap"><b>Dener e Gabriel</b><span>Proprietários</span></figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="cue" aria-hidden="true"><i></i>role</div>
+  </section>
+
+  <!-- ============ BAND ============ -->
+  <section class="band" id="band" style="padding:0">
+    <div class="wrap">
+      <div class="band-i"><div class="n" data-to="2">0</div><div class="l">Professores com vivência no futebol profissional</div></div>
+      <div class="band-i"><div class="n" data-to="4">0</div><div class="l">Pilares dentro de cada treino</div></div>
+      <div class="band-i"><div class="n" data-to="100" data-suf="%">0</div><div class="l">Treino aplicado ao jogo real</div></div>
+      <div class="band-i"><div class="n" data-to="1">0</div><div class="l">Aula experimental gratuita para começar</div></div>
+    </div>
+  </section>
+
+  <!-- ============ EQUIPE ============ -->
+  <section class="equipe" id="equipe">
+    <div class="watermark" data-par="0.06">Equipe</div>
+    <div class="wrap">
+      <div class="eq-head">
+        <div class="rv">
+          <div class="eyebrow">Quem somos</div>
+          <h2 class="title split">Quem está na <span class="g">beira do campo</span></h2>
+        </div>
+        <p class="lead rv">A D&amp;GSOCCER é conduzida por dois profissionais de Educação Física que jogaram futebol em alto nível. Eles sabem, na prática, o que separa um jogador comum de um atleta preparado, e é exatamente isso que colocam dentro do treino.</p>
+      </div>
+
+      <div class="eq-grid stg">
+        <article class="prof tilt">
+          <span class="prof-num">01</span>
+          <div class="prof-top">
+            <div class="prof-ava">
+              <span class="prof-glow"></span>
+              <img src="img/gabriel.jpg" alt="Gabriel Nascimento, proprietário e professor da D&amp;GSOCCER, de jaqueta preta">
+            </div>
+            <div class="prof-id">
+              <span class="prof-tag">Proprietário</span>
+              <h3>Gabriel Nascimento</h3>
+              <div class="prof-role">Atleta profissional<br>Educação Física</div>
+            </div>
+          </div>
+          <div class="prof-body">
+            <p>Leva para dentro da escola a rotina, a disciplina e o padrão de exigência que aprendeu vivendo o futebol de alto rendimento todos os dias.</p>
+            <div class="prof-links">
+              <a class="chip" href="https://www.instagram.com/g8_nascimento/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 1.8.25 2.2.42.6.22 1 .48 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c0 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2 0-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c0-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4Zm0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3Zm6.9-11.1a1.55 1.55 0 1 1-1.55-1.55A1.55 1.55 0 0 1 18.9 5.2Z"/></svg>@g8_nascimento</a>
+              <span class="chip">Formação de base</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="prof tilt">
+          <span class="prof-num">02</span>
+          <div class="prof-top">
+            <div class="prof-ava">
+              <span class="prof-glow"></span>
+              <img src="img/denner.jpg" alt="Dener Soares, proprietário e professor da D&amp;GSOCCER, de braços cruzados com a camisa preta">
+            </div>
+            <div class="prof-id">
+              <span class="prof-tag">proprietario 2</span>
+              <h3>Dener Soares</h3>
+              <div class="prof-role">proprietario 2 profissional<br>Educação Física</div>
+            </div>
+          </div>
+          <div class="prof-body">
+            <p>Conhece por dentro a cobrança de quem vive do futebol. Traduz essa bagagem em treinos que preparam o atleta para a decisão rápida e para a pressão do jogo de verdade.</p>
+            <div class="prof-links">
+              <a class="chip" href="https://www.instagram.com/denersoares06/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.9.07 1.2.06 1.8.25 2.2.42.6.22 1 .48 1.4.9.4.4.7.8.9 1.4.2.4.4 1 .4 2.2.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c0 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.8.7-1.4.9-.4.2-1 .4-2.2.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2 0-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.8-.9-1.4-.2-.4-.4-1-.4-2.2C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9c0-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.8-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2Zm0 3.2A6.6 6.6 0 1 0 18.6 12 6.6 6.6 0 0 0 12 5.4Zm0 10.9A4.3 4.3 0 1 1 16.3 12 4.3 4.3 0 0 1 12 16.3Zm6.9-11.1a1.55 1.55 0 1 1-1.55-1.55A1.55 1.55 0 0 1 18.9 5.2Z"/></svg>@denersoares06</a>
+              <span class="chip">Alta performance</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="mq" aria-hidden="true"><div class="mq-t">
+    <span>Treine</span><span class="s">✦</span><span class="o">Evolua</span><span class="s">✦</span><span>Jogue melhor</span><span class="s">✦</span><span class="o">Seja D&amp;GSOCCER</span><span class="s">✦</span>
+    <span>Treine</span><span class="s">✦</span><span class="o">Evolua</span><span class="s">✦</span><span>Jogue melhor</span><span class="s">✦</span><span class="o">Seja D&amp;GSOCCER</span><span class="s">✦</span>
+  </div></div>
+  <div class="mq rev" aria-hidden="true"><div class="mq-t">
+    <span class="o">Técnica</span><span class="s">✦</span><span>Tática</span><span class="s">✦</span><span class="o">Físico</span><span class="s">✦</span><span>Mental</span><span class="s">✦</span>
+    <span class="o">Técnica</span><span class="s">✦</span><span>Tática</span><span class="s">✦</span><span class="o">Físico</span><span class="s">✦</span><span>Mental</span><span class="s">✦</span>
+  </div></div>
+
+  <!-- ============ METODOLOGIA ============ -->
+  <section class="met" id="metodologia">
+    <div class="watermark" data-par="-0.05">Método</div>
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow">Metodologia</div>
+        <h2 class="title split">Quatro pilares, <span class="g">um treino só</span></h2>
+        <p class="lead">Respeitamos as etapas de formação de cada atleta e construímos evolução consistente, sem pular degraus. Toque em cada pilar para ver o que é trabalhado.</p>
+      </div>
+
+      <div class="met-grid">
+        <div class="tabs rv" role="tablist" aria-label="Pilares do treino">
+          <button class="tab on" role="tab" aria-selected="true" data-p="0"><span class="tn">01</span><span class="tt">Técnica</span><span class="ar">→</span></button>
+          <button class="tab" role="tab" aria-selected="false" data-p="1"><span class="tn">02</span><span class="tt">Tática</span><span class="ar">→</span></button>
+          <button class="tab" role="tab" aria-selected="false" data-p="2"><span class="tn">03</span><span class="tt">Físico</span><span class="ar">→</span></button>
+          <button class="tab" role="tab" aria-selected="false" data-p="3"><span class="tn">04</span><span class="tt">Mental</span><span class="ar">→</span></button>
+        </div>
+
+        <div class="panel rv">
+          <div class="pane on" role="tabpanel">
+            <div class="pn">01</div>
+            <h3>Fundamento que vira gesto natural</h3>
+            <p>O atleta repete o fundamento até ele sair sozinho dentro do jogo, sem pensar. Cada faixa etária trabalha o nível certo de exigência, respeitando a etapa de formação.</p>
+            <ul><li>Passe</li><li>Domínio</li><li>Condução</li><li>Finalização</li><li>Coordenação</li></ul>
+          </div>
+          <div class="pane" role="tabpanel">
+            <div class="pn">02</div>
+            <h3>Ler a jogada antes dela acontecer</h3>
+            <p>Treino não é só repetir exercício. O atleta aprende a entender o jogo, enxergar o espaço e escolher a melhor opção sob pressão, que é o que aparece no domingo.</p>
+            <ul><li>Tomada de decisão</li><li>Leitura de jogo</li><li>Posicionamento</li><li>Situações reais</li></ul>
+          </div>
+          <div class="pane" role="tabpanel">
+            <div class="pn">03</div>
+            <h3>Corpo preparado para o futebol</h3>
+            <p>Preparação física pensada para as exigências do futebol e para a idade de cada aluno, com foco em explosão, mudança de direção e resistência para o jogo inteiro.</p>
+            <ul><li>Velocidade</li><li>Agilidade</li><li>Força</li><li>Resistência</li></ul>
+          </div>
+          <div class="pane" role="tabpanel">
+            <div class="pn">04</div>
+            <h3>O que sustenta a evolução</h3>
+            <p>Disciplina, foco e constância. É o pilar que segura o atleta quando o treino fica difícil e o que diferencia quem evolui de quem para no meio do caminho.</p>
+            <ul><li>Disciplina</li><li>Foco</li><li>Constância</li><li>Postura de atleta</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PUBLICO ============ -->
+  <section id="publico">
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow">Para quem é</div>
+        <h2 class="title split">Do primeiro toque <span class="g">ao alto rendimento</span></h2>
+      </div>
+      <div class="cards stg">
+        <div class="card glow"><div class="ci">01</div><h3>Está começando</h3><p>Crianças e adolescentes que querem aprender futebol de verdade, com fundamento desde o primeiro dia. Não precisa ter experiência nenhuma.</p></div>
+        <div class="card glow"><div class="ci">02</div><h3>Já joga e quer evoluir</h3><p>Para quem já joga e quer aprimorar fundamento, desempenho e inteligência de jogo, ganhando consistência dentro de campo.</p></div>
+        <div class="card glow"><div class="ci">03</div><h3>Joga federado</h3><p>Atletas já federados ou em equipes que buscam treinamento complementar de alta performance e desenvolvimento individual fora do clube.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TREINOS ============ -->
+  <section id="treinos">
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow">Treinos</div>
+        <h2 class="title split">O que a D&amp;GSOCCER <span class="g">oferece</span></h2>
+      </div>
+      <div class="rows" style="margin-top:46px">
+        <div class="row rv">
+          <div class="rn">01</div>
+          <div>
+            <h3>Treinos por idade e nível</h3>
+            <p>Turmas adaptadas à faixa etária e ao nível técnico, trabalhando fundamento, coordenação, velocidade e tomada de decisão em situação de jogo.</p>
+          </div>
+          <a class="go" href="https://wa.me/5511940368331?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20os%20treinos%20por%20idade%20e%20n%C3%ADvel%20da%20DG%20Soccer." target="_blank" rel="noopener">Falar sobre <i>→</i></a>
+        </div>
+        <div class="row rv">
+          <div class="rn">02</div>
+          <div>
+            <h3>Treino complementar de alta performance</h3>
+            <p>Para atletas federados que querem desenvolvimento individual e evolução técnica e tática além do que o clube consegue dar no dia a dia.</p>
+          </div>
+          <a class="go" href="https://wa.me/5511940368331?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20treino%20complementar%20de%20alta%20performance%20da%20DG%20Soccer." target="_blank" rel="noopener">Falar sobre <i>→</i></a>
+        </div>
+        <div class="row rv">
+          <div class="rn">03</div>
+          <div>
+            <h3>Painel de evolução do aluno</h3>
+            <p>Cada aluno da D&amp;GSOCCER passa a ter uma área própria para acompanhar sua evolução ao longo do tempo, com clareza sobre o que melhorou.</p>
+          </div>
+          <a class="go" href="https://wa.me/5511940368331?text=Ol%C3%A1!%20Quero%20entender%20como%20funciona%20o%20painel%20de%20evolu%C3%A7%C3%A3o%20do%20aluno%20da%20DG%20Soccer." target="_blank" rel="noopener">Falar sobre <i>→</i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PASSOS ============ -->
+  <section class="passos" id="passos">
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow">Como começar</div>
+        <h2 class="title split">Três passos <span class="g">e o atleta já treina</span></h2>
+      </div>
+      <div class="steps" id="steps">
+        <div class="step rv"><div class="sn">01</div><h3>Você chama no WhatsApp</h3><p>Conte a idade do atleta e o objetivo dele. A conversa começa por aí, sem compromisso.</p></div>
+        <div class="step rv"><div class="sn">02</div><h3>Apresentamos a metodologia</h3><p>Explicamos para os pais e para o atleta como funciona o treino, os horários e o que esperar da evolução.</p></div>
+        <div class="step rv"><div class="sn">03</div><h3>Aula experimental gratuita</h3><p>O atleta sente o treino na prática, conhece os professores e decide com segurança.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIDEOS ============ -->
+  <section class="vids" id="videos">
+    <div class="wrap">
+      <div class="vid-head">
+        <div class="rv">
+          <div class="eyebrow">Na prática</div>
+          <h2 class="title split" style="margin-bottom:0">A D&amp;GSOCCER <span class="g">em movimento</span></h2>
+        </div>
+        <div class="rail-nav rv">
+          <button id="prev" aria-label="Vídeo anterior">←</button>
+          <button id="next" aria-label="Próximo vídeo">→</button>
+        </div>
+      </div>
+    </div>
+    <div class="rail-wrap">
+      <div class="rail" id="rail">
+        <a class="vid" data-cursor="Assistir" href="https://www.instagram.com/_dgsoccer/reel/DdZ6dqJRef-/" target="_blank" rel="noopener">
+          <img src="img/hero-treino.jpg" alt="Atleta da D&amp;GSOCCER conduzindo a bola em campo">
+          <span class="vid-ic"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="vid-cap"><b>Treino em campo</b><span>Ver no Instagram</span></span>
+        </a>
+        <a class="vid" data-cursor="Assistir" href="https://www.instagram.com/_dgsoccer/reel/Da6B-B1JTZ3/" target="_blank" rel="noopener">
+          <img src="img/video-1-base.jpg" alt="Jovem atleta da D&amp;GSOCCER com a bola">
+          <span class="vid-ic"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="vid-cap"><b>Formação de base</b><span>Ver no Instagram</span></span>
+        </a>
+        <a class="vid" data-cursor="Assistir" href="https://www.instagram.com/_dgsoccer/reel/DbDg8rdxiJs/" target="_blank" rel="noopener">
+          <img src="img/video-2-aluno.jpg" alt="Depoimento de Rayan Roque, aluno da D&amp;GSOCCER">
+          <span class="vid-ic"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="vid-cap"><b>Depoimento de aluno</b><span>Ver no Instagram</span></span>
+        </a>
+        <a class="vid" data-cursor="Assistir" href="https://www.instagram.com/_dgsoccer/reel/DcRzFtDRWx_/" target="_blank" rel="noopener">
+          <img src="img/video-5-professor.jpg" alt="Professor da D&amp;GSOCCER em vídeo de treino">
+          <span class="vid-ic"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="vid-cap"><b>Professor em campo</b><span>Ver no Instagram</span></span>
+        </a>
+        <a class="vid" data-cursor="Assistir" href="https://www.instagram.com/_dgsoccer/reel/DcMLKMDRvRl/" target="_blank" rel="noopener">
+          <img src="img/video-4-core.jpg" alt="Exercícios de core para jogadores de futebol">
+          <span class="vid-ic"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="vid-cap"><b>Exercícios de core</b><span>Ver no Instagram</span></span>
+        </a>
+        <a class="vid" data-cursor="Assistir" href="https://www.instagram.com/_dgsoccer/reel/Dc1u566ucym/" target="_blank" rel="noopener">
+          <img src="img/video-3-uniforme.jpg" alt="Uniforme da D&amp;GSOCCER">
+          <span class="vid-ic"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+          <span class="vid-cap"><b>Nunca é só futebol</b><span>Ver no Instagram</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTE ============ -->
+  <section id="confianca" style="padding-top:0">
+    <div class="wrap">
+      <div class="quote rv">
+        <div class="quote-grid">
+          <div>
+            <h3>Confiança se constrói com clareza</h3>
+            <p>A D&amp;GSOCCER prefere conversar com transparência sobre o que a formação completa pode entregar a prometer resultado que ninguém garante. Quem treina aqui sabe exatamente com quem está falando desde a primeira conversa.</p>
+            <a class="btn btn-line mag" href="https://www.instagram.com/_dgsoccer/" target="_blank" rel="noopener">Ver o dia a dia no Instagram</a>
+          </div>
+          <img class="quote-logo" src="img/logo-dgsoccer.png" width="150" height="150" alt="Logo D&amp;GSOCCER" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section id="faq" style="padding-top:0">
+    <div class="wrap">
+      <div class="rv">
+        <div class="eyebrow">Dúvidas frequentes</div>
+        <h2 class="title split">Antes de <span class="g">começar</span></h2>
+      </div>
+      <div style="margin-top:44px" id="faq-list">
+        <div class="faq-i open">
+          <button class="faq-q"><span class="fn">01</span>Qual a idade dos alunos da D&amp;GSOCCER?<span class="ic"></span></button>
+          <div class="faq-a-w"><div class="faq-a">Atendemos crianças e adolescentes, com turmas adaptadas por faixa etária e nível técnico. Chame no WhatsApp com a idade do atleta que indicamos a turma certa.</div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-q"><span class="fn">02</span>Precisa já ter experiência com futebol?<span class="ic"></span></button>
+          <div class="faq-a-w"><div class="faq-a">Não precisa. Atendemos desde quem está dando os primeiros passos até atletas já federados que buscam treino complementar de alta performance.</div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-q"><span class="fn">03</span>Como funcionam as aulas?<span class="ic"></span></button>
+          <div class="faq-a-w"><div class="faq-a">Cada treino trabalha técnica, tática, físico e mental, respeitando a etapa de formação do atleta. O foco é sempre transferir o que foi treinado para situações reais de jogo.</div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-q"><span class="fn">04</span>Quem são os professores?<span class="ic"></span></button>
+          <div class="faq-a-w"><div class="faq-a">Gabriel Nascimento e Dener Soares, os dois formados em Educação Física e com vivência no futebol profissional. É essa bagagem real que sustenta a metodologia da escola.</div></div>
+        </div>
+        <div class="faq-i">
+          <button class="faq-q"><span class="fn">05</span>Como agendo a aula experimental?<span class="ic"></span></button>
+          <div class="faq-a-w"><div class="faq-a">Chame a D&amp;GSOCCER no WhatsApp contando a idade e o objetivo do atleta. A equipe apresenta a metodologia e agenda a aula experimental gratuita.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="cta" id="contato">
+    <div class="wrap">
+      <div class="rv" style="display:flex;flex-direction:column;align-items:center">
+        <div class="eyebrow">Bora começar</div>
+        <h2 class="title split">Treine. Evolua. <span class="g">Jogue melhor.</span></h2>
+        <p class="lead">Conte a idade e o objetivo do atleta. A gente apresenta a metodologia para a sua família e agenda a primeira aula, gratuita.</p>
+        <div class="hero-btns" style="justify-content:center;margin-top:36px">
+          <a class="btn btn-gold mag" data-cursor="Vamos" href="https://wa.me/5511940368331?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20a%20aula%20experimental%20gratuita%20e%20conhecer%20a%20metodologia%20da%20DG%20Soccer." target="_blank" rel="noopener"><span class="sh"></span>Agendar aula experimental gratuita</a>
+          <a class="btn btn-line mag" href="https://www.instagram.com/_dgsoccer/" target="_blank" rel="noopener">Ver o Instagram</a>
+        </div>
+      </div>
+
+      <div class="info stg">
+        <div><h4>Endereço</h4><p>Av. Dr. Armando Pinto, 100<br>Centro, Caieiras, SP</p></div>
+        <div><h4>Horário</h4><p>Terça a sexta<br>das 6h às 17h30</p></div>
+        <div><h4>Contato</h4><p><a href="https://wa.me/5511940368331" target="_blank" rel="noopener">WhatsApp (11) 94036-8331</a><br><a href="https://www.instagram.com/_dgsoccer/" target="_blank" rel="noopener">@_dgsoccer</a></p></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="#main" class="brand" aria-label="D&amp;GSOCCER, voltar ao início">
+      <img class="brand-logo" src="img/logo-dgsoccer-escudo.png" width="99" height="109" alt="Logo D&amp;GSOCCER">
+      <b>DG <em>Soccer</em></b>
+    </a>
+    <div class="f-links">
+      <a href="#equipe">Quem somos</a>
+      <a href="#metodologia">Metodologia</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://wa.me/5511940368331" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://www.instagram.com/_dgsoccer/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <div class="copy">
+      <span>© 2026 D&amp;GSOCCER. Caieiras, SP.</span>
+      <span>Treine. Evolua. Jogue melhor.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="float" id="float" href="https://wa.me/5511940368331?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20aula%20experimental%20na%20DG%20Soccer." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.48 1.34 5L2 22l5.2-1.36c1.46.8 3.1 1.22 4.83 1.22h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2zm5.8 14.24c-.24.68-1.4 1.3-1.93 1.38-.5.08-1.13.11-1.83-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.79-4.17-4.94-4.36-.14-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.29.58-.36.78-.36.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2.01.89 2.16.07.14.12.31.02.5-.1.2-.15.31-.29.48-.15.17-.31.38-.44.51-.15.15-.3.31-.13.6.17.29.76 1.25 1.63 2.02 1.12 1 2.06 1.31 2.35 1.46.29.15.46.13.63-.08.17-.2.72-.84.91-1.13.19-.29.38-.24.63-.14.26.1 1.64.77 1.92.91.28.14.47.2.54.32.07.12.07.68-.17 1.36z"/></svg>
+  <b>Falar agora</b>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
